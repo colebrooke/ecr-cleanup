@@ -26,9 +26,7 @@ case "$CHOICE" in
       aws ecr batch-delete-image --repository-name $REPO --image-ids imageDigest=$DIGEST
     done
   ;;
-
-  n|N ) echo "Skipping $REPO" && exit 0;;
-  * ) echo "invalid";;
+  * ) exit 0 ;;
 esac
 
 
