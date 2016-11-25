@@ -13,7 +13,7 @@
 type jq >/dev/null 2>&1 || { echo >&2 "The jq utility is required for this scipt to run."; exit 3; }
 
 # Check if aws cli is available
-type aws >/dev/null 2>&1 || { echo >&2 "The aws cliis required for this script to run."; exit 3; }
+type aws >/dev/null 2>&1 || { echo >&2 "The aws cli is required for this script to run."; exit 3; }
 
 REPO=$1
 
