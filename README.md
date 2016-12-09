@@ -9,6 +9,6 @@ A couple of simple bash shell scripts which can be used to
 
 ### Dependancies
 
-- AWS command line tools (tested with aws-cli/1.11.21)
+- AWS command line tools (tested with aws-cli/1.11.21, will NOT work with earlier versions)
 - jq utility for parsing json
 
