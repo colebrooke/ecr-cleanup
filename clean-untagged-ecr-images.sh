@@ -15,6 +15,11 @@ type jq >/dev/null 2>&1 || { echo >&2 "The jq utility is required for this scipt
 # Check if aws cli is available
 type aws >/dev/null 2>&1 || { echo >&2 "The aws cli is required for this script to run."; exit 3; }
 
+# Check number of arguments parsed
+if [ $# -ne 1 ]; then 
+	echo "Useage ./clean-untagged-ecr-images.sh <IMAGE-REPO-NAME>"
+	exit 1
+fi
 REPO=$1
 
 IMAGES=$(aws ecr list-images --repository-name $REPO --query 'imageIds[?type(imageTag)!=`string`].[imageDigest]' --output text)
