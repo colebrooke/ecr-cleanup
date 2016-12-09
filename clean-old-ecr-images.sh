@@ -6,6 +6,9 @@
 
 ## Usage:
 ## ./clean-old-ecr-images.sh <IMAGE-REPO-NAME> <WEEKS-TO-KEEP>
+##
+## Non-interactive, for running in cron or your C.I.:
+## echo "y" | ./clean-old-ecr-images.sh <IMAGE-REPO-NAME> <WEEKS-TO-KEEP>
 
 ## Dependencies
 ## Requires jq and aws command line
@@ -42,5 +45,5 @@ case "$CHOICE" in
 
   *) exit 0  ;;
 esac
-
+echo "Finished."
 
