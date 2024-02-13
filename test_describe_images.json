@@ -1,0 +1,104 @@
+{
+    "imageDetails": [
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:1",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-01T15:45:08+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:3",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-05T09:39:15+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:2",
+            "imageTags": [
+                "tag1",
+                "tag2"
+            ],
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-03T16:38:24+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.list.v2+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:4",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-07T07:56:37+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json",
+            "lastRecordedPullTime": "2023-12-15T08:05:53.014000+03:00"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:5",
+            "imageTags": [
+                "tag1",
+                "tag2",
+                "tag3"
+            ],
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-09T20:15:15+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.list.v2+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:6",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-11T20:50:16+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:7",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-13T16:46:36+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:8",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-15T17:20:47+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:9",
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-18T16:39:35+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "artifactMediaType": "application/vnd.docker.container.image.v1+json"
+        },
+        {
+            "registryId": "123456789876",
+            "repositoryName": "repositoryName",
+            "imageDigest": "sha256:10",
+            "imageTags": [
+                "tag1"
+            ],
+            "imageSizeInBytes": 0,
+            "imagePushedAt": "2023-12-21T08:27:10+03:00",
+            "imageManifestMediaType": "application/vnd.docker.distribution.manifest.list.v2+json"
+        }
+    ]
+}
